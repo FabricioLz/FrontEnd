@@ -1,0 +1,39 @@
+@media screen and (max-width: 760px) {
+    /* Estilos para telas menores */
+    header {
+        flex-direction: column;
+    }
+    main {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+    
+    form {
+        margin: 0 auto;
+        flex-direction: column;
+        align-self: center;
+    }
+    
+    #inputs {
+        margin: 0 auto;
+    }
+    
+    input[type="submit"] {
+        align-self: center;
+    }
+
+    img {
+        width: 360px;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    input[type="email"] {
+        align-self: center;
+    }
+}

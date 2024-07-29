@@ -1,0 +1,163 @@
+body {
+    background-color: #222222;
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;
+    flex-direction: row;
+}
+
+.titulo {
+    font-size: 25px;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    margin: 60px;
+    width: 620px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 9px;
+    font-family: poppinsmedium;
+}
+
+span {
+    color: rgb(134, 14, 201);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+}
+
+#forget {
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(134, 14, 201);
+    transition: 0.3s all;
+}
+
+#entrar {
+    border: 2px solid;
+    border-color: #860ec9;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#entrar:hover {
+    background-color: rgb(134, 14, 201);
+    color: white;
+    transition: 0.3s all;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+
+form[type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(134, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+.password {
+    position: relative;
+}
+
+.password i {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+i {
+    color: #860ec9;
+}
+
+#entrar {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(134, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+#entrar:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(134, 14, 201);
+    transition: 0.3s all;
+    text-align: center;
+}
+
+:root {
+    --dark: #222222;
+    --white: #fff;
+    --purple: #860ec9;
+}
+
+[data-theme="white"] {
+    --white: #222222;
+    --dark: #fff;
+}
+#submit{ /*vai aplicar só no botao de enviar*/
+    height: 50px;
+    width: 50%;
+    background-color: rgb(134, 14, 201);
+    color: white;
+    font-weight:bold;/*intensidade da fonte*/
+}
+#submit:hover{  /*a letra fica branca e o fundo roxo*/
+    background-color: rgb(255, 255, 255);
+    color: rgb(134, 14, 201);
+    transition: 0.3s all;
+    text-align: center;
+}
